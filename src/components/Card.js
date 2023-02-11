@@ -11,7 +11,7 @@ const Card = ({pokemon}) => {
             <div>Type</div>
             {pokemon.types.map((type) =>{
                 return (
-                    <div>
+                    <div key={type.type.name}>
                         <span className='typeName'>{type.type.name}</span>
                     </div>
                 )
