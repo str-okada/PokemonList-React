@@ -5,6 +5,7 @@ import Card from './components/Card';
 
 function App() {
   const initailURL = "https://pokeapi.co/api/v2/pokemon";
+  
   const [loading, setLoading] = useState(true);
   const [pokemonData,setPokemonData] = useState([]);
   const [nextURL,setNextURL] = useState("");
